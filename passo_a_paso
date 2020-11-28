@@ -1,0 +1,17 @@
+conda create -n tf-gpu tensorflow-gpu
+conda activate tf-gpu
+conda install -c anaconda pandas
+conda install -c anaconda scikit-image
+conda install -c anaconda opencv
+conda install -c anaconda scikit-learn
+conda install -c anaconda keras-gpu
+conda install -c conda-forge wandb
+conda install -c anaconda protobuf
+
+conda install -c conda-forge gdrive
+conda install -c conda-forge cartopy
+conda install -c anaconda jupyter
+
+
+conda activate tf-gpu
+jupyter notebook
